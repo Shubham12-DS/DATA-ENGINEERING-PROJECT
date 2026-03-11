@@ -1,38 +1,42 @@
-# 🛒 BigMart Sales Prediction
+# 🛒 BigMart Sales Prediction – Data Engineering & Machine Learning Project
 
-A **Machine Learning project** that predicts product sales for BigMart outlets using multiple regression models and an interactive web application built with Streamlit.
+A complete **Data Engineering and Machine Learning pipeline** that predicts product sales for BigMart outlets using multiple regression models and an interactive web application built with Streamlit.
+
+🔗 **GitHub Repository:**  
+https://github.com/Shubham12-DS/DATA-ENGINEERING-PROJECT
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Demo
 
 🚀 Try the live application here:
 
-👉 **Streamlit Live App:**  
+👉 **Streamlit App:**  
 https://your-streamlit-app-link.streamlit.app
 
-> Replace the above link with your actual deployed app link after deploying the project.
+*(Replace this link after deploying your Streamlit application.)*
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 BigMart is a retail chain that sells multiple product categories across different outlets.
 
-The goal of this project is to **predict the sales of products in different BigMart stores using machine learning models**.
+The objective of this project is to **predict the sales of products in different BigMart stores using machine learning models**.
 
-This project includes:
+This project demonstrates an **end-to-end data engineering workflow**, including:
 
-- Data loading from XML files
-- Data storage using MySQL
-- Data preprocessing and feature engineering
+- Data extraction from XML files
+- Data loading into MySQL database
+- Data preprocessing and transformation
+- Feature engineering
 - Training multiple machine learning models
-- Selecting the best performing model
-- Deploying a prediction system using Streamlit
+- Automatic model selection
+- Deployment using Streamlit
 
 ---
 
-## 📊 Features Used
+# 📊 Features Used
 
 The model uses the following features to predict sales:
 
@@ -48,7 +52,7 @@ The model uses the following features to predict sales:
 
 ---
 
-## 🧠 Machine Learning Models Used
+# 🧠 Machine Learning Models Used
 
 The following regression models were trained and evaluated:
 
@@ -56,11 +60,13 @@ The following regression models were trained and evaluated:
 - Random Forest Regressor
 - Linear Regression
 
-The **best performing model** was automatically selected based on model evaluation metrics.
+The **best performing model** was automatically selected based on evaluation metrics.
 
 ---
 
-## ⚙️ Technologies Used
+# ⚙️ Technologies Used
+
+This project uses the following technologies:
 
 - Python
 - Pandas
@@ -71,10 +77,10 @@ The **best performing model** was automatically selected based on model evaluati
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
-BigMart-Sales-Prediction
+DATA-ENGINEERING-PROJECT
 │
 ├── app.py
 ├── bigmart_best_model.pkl
@@ -86,18 +92,18 @@ BigMart-Sales-Prediction
 
 ---
 
-## 🚀 How to Run the Project
+# 🚀 How to Run the Project
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/bigmart-sales-prediction.git
-cd bigmart-sales-prediction
+git clone https://github.com/Shubham12-DS/DATA-ENGINEERING-PROJECT.git
+cd DATA-ENGINEERING-PROJECT
 ```
 
 ---
 
-### 2️⃣ Install Required Libraries
+## 2️⃣ Install Required Libraries
 
 ```bash
 pip install -r requirements.txt
@@ -105,7 +111,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3️⃣ Run the Streamlit Application
+## 3️⃣ Run the Streamlit Application
 
 ```bash
 streamlit run app.py
@@ -113,34 +119,37 @@ streamlit run app.py
 
 ---
 
-## 🖥️ Streamlit Application Features
+# 🖥️ Streamlit Application Features
 
 The Streamlit web application allows users to:
 
-- Enter product details
-- Select outlet information
+- Enter product information
+- Select outlet details
 - Predict sales instantly
-- View prediction results in an interactive interface
+- View prediction results interactively
 
 ---
 
-## 📈 Future Improvements
+# 📈 Future Improvements
 
-Possible improvements for this project:
+Possible improvements for the project include:
 
-- Add data visualization dashboard
-- Deploy the application on cloud platforms
-- Add feature importance visualization
-- Implement automated model retraining
-- Integrate real-time data pipeline
+- Adding a data visualization dashboard
+- Deploying the application on cloud platforms
+- Adding feature importance visualization
+- Implementing automated model retraining
+- Integrating real-time data pipeline
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Shubham Shinde**  
 Machine Learning & Data Science Enthusiast
 
+GitHub:  
+https://github.com/Shubham12-DS
+
 ---
 
-⭐ If you found this project useful, consider giving it a **star on GitHub**!
+⭐ If you found this project helpful, please consider **starring the repository**!
